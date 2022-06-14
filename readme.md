@@ -7,6 +7,8 @@ To execute the project execute the below command from the base folder:
 npm test
 In this case the browser name and env can be changed in package.json(line number: 9). This can also be configured from command line.
 Or
+npm install
+and then
 npx cypress run --env env=QA --browser chrome
 Browser name & env is configurable from the command. I have tested the execution on chrome and electron browser.
 The command can be ran from terminal. I have tested the code on MacOS and I believe the code should execute properly on Unix as well.
@@ -16,3 +18,4 @@ Below are the functionalities automated:
 2. Check Process Analytics Link & 3 demos.
 
 The tests will execute in headless mode, however we can execute it in head mode with --headed parameter.
+Manual Testcases Path: root directory/Celonis_Testcases.xlsx
